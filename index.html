@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook P1-M11.5</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { width: 95%; margin: auto; }
+        .dropdown { margin-bottom: 20px; }
+        .time-title { font-size: 1.2em; font-weight: bold; }
+        .activity { margin-bottom: 30px; }
+        .banner { background-color: #4CAF50; color: white; padding: 10px; cursor: pointer; }
+        .title { font-weight: bold; }
+        .subtitle { font-style: italic; }
+        .content { display: none; padding: 10px; border: 1px solid #ddd; }
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 8px; border: 1px solid #ddd; vertical-align: top; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Playbook P1-M11.5</h1>
+        
+        <div class="dropdown">
+            <label for="class-time">Tiempo efectivo de Clase:</label>
+            <select id="class-time" onchange="updateContent()">
+                <option value="50">50 minutos</option>
+                <option value="45">45 minutos</option>
+                <option value="40">40 minutos</option>
+            </select>
+        </div>
+
+        <h2 id="selected-time" class="time-title">Tiempo efectivo de clase: 50 minutos</h2>
+    </div> <!-- Cierre del container -->
+    
+    <!-- Actividad 0 -->
+<div id="activity-0" class="activity">
+    <div class="banner" onclick="toggleContent('revision_mision')">
+        <div class="title">📚 Actividad 0: Revisión de Misión ⏰ Tiempo: N/A</div>
+        <div class="subtitle">Revisar todos los recursos para la misión.</div>
+    </div>
+    <div id="revision_mision" class="content">
+        <table>
+            <tr>
+                <td><strong>PASO 1:</strong> Proyectar Diapositiva 1 y revisar todos los recursos. Comprobar que el enlace al juego funcione correctamente y que los dispositivos tengan acceso a internet y un mouse funcional. Además, asegurarse de que las Magic Boards están disponibles para cada equipo.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Actividad 1 -->
+<div id="activity-1" class="activity">
+    <div class="banner" onclick="toggleContent('saludo_ritual')">
+        <div class="title">🎉 Actividad 1: Saludo y Ritual Gnius Club ⏰ Tiempo: 2.5 minutos</div>
+        <div class="subtitle">Dar la bienvenida y preparar el ambiente.</div>
+    </div>
+    <div id="saludo_ritual" class="content">
+        <table>
+            <tr>
+                <td><strong>PASO 1 (0.5 minutos):</strong> Proyectar Diapositiva 2: "Gnius Club". El maestro saluda a los estudiantes y presenta el tema del día.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Hola, Genios! ¿Están listos para una nueva misión? Hoy vamos a salvar a unas ovejas de unos alienígenas muy traviesos. ¡Con su rapidez y trabajo en equipo, sé que mantendrán a las ovejas a salvo! ¿Quién está emocionado por esta aventura?"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 2 (1 minuto):</strong> Proyectar Diapositiva 3: "¿Cómo están?" y pedir a los estudiantes que usen gestos para expresar su estado de ánimo.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, veamos cómo se sienten hoy para esta misión! Si están listos y con toda la energía, pónganse en Pose de Súper Héroe: manos en la cintura y pecho hacia adelante. Si se sienten un poco cansados y necesitan un empujoncito extra, pónganse en Pose de Siesta: manos en los hombros y ojos cerrados un momento. ¡A ver esos Súper Héroes y Siestas!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 3 (0.5 minutos):</strong> Proyectar Diapositiva 4: "Gracias por Asistir" y guiar a los estudiantes en el ritual de agradecimiento.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora todos juntos, juntemos nuestras manos y digamos: '¡Gracias por estar aquí, Genios! Hoy vamos a aprender algo nuevo y emocionante. ¡A salvar a esas ovejas de los alienígenas!'"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 4 (0.5 minutos):</strong> Proyectar Diapositiva 5: "Objetivos de la Misión" y leer los objetivos.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy tenemos tres grandes objetivos: 1) Practicar nuestra rapidez al teclear letras y números para salvar a las ovejas, 2) Completar los desafíos de diferentes niveles, y 3) Trabajar en equipo para darnos apoyo mutuo. ¡Va a ser emocionante!"</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Actividad 2 -->
+<div id="activity-2" class="activity">
+    <div class="banner" onclick="toggleContent('brain_vitamin')">
+        <div class="title">🧠 Actividad 2: Brain Vitamin ⏰ Tiempo: 4 minutos</div>
+        <div class="subtitle">Ejercicio de gimnasia cerebral para preparación.</div>
+    </div>
+    <div id="brain_vitamin" class="content">
+        <table>
+            <tr>
+                <td><strong>PASO 1 (1 minuto):</strong> Proyectar Diapositiva 6: "Entrenamiento Alienígena". El maestro introduce el ejercicio de gimnasia cerebral.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, antes de enfrentar a esos alienígenas ladrones de ovejas, necesitamos afinar nuestra rapidez mental y coordinación! Hoy haremos un ejercicio especial llamado 'Atrapemos al Alien' para que nuestros dedos y cerebros estén listos. ¡Prepárense para la acción!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 2 (2 minutos):</strong> Proyectar Diapositiva 7 y guiar a los estudiantes en el ejercicio "Atrapemos al Alien".</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Para 'Atrapemos al Alien', usaremos ambas manos y ambos lados del cerebro. Primero, toquen su nariz con la mano derecha y su oreja izquierda con la mano izquierda, ¡como si estuvieran capturando a un alienígena! Luego cambien rápido de lado: ahora la mano izquierda toca la nariz y la derecha la oreja. ¡Vamos, a atrapar esos alienígenas cruzados!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 3 (1 minuto):</strong> Proyectar Diapositiva 8: "Respiración Profunda". El maestro guía a los estudiantes en una breve respiración.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Para estar listos y concentrados, vamos a respirar profundamente tres veces. Imaginen que están capturando toda la calma y energía que necesitan, y luego suelten el aire como si alejaran a cualquier alienígena. ¡Increíble! Ahora estamos listos para el reto."</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Actividad 3 -->
+<div id="activity-3" class="activity">
+    <div class="banner" onclick="toggleContent('challenge')">
+        <div class="title">🚀 Actividad 3: Challenge ⏰ Tiempo: 28.5 minutos</div>
+        <div class="subtitle">Introducción y ejecución del desafío de rescate de ovejas.</div>
+    </div>
+    <div id="challenge" class="content">
+        <table>
+            <tr>
+                <td><strong>PASO 1 (0.5 minutos):</strong> Proyectar Diapositiva 9: "Portada del Challenge". Explicar que hay tres niveles de desafíos, cada uno con un grado de dificultad.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, ha llegado el momento del gran desafío! Hoy deberán rescatar tantas ovejas como puedan antes de que los alienígenas se las lleven. Tienen tres niveles de dificultad: <strong>Rockie</strong>, <strong>Master</strong> y <strong>Hacker</strong>. ¿Listos para elegir su reto y demostrar su velocidad?"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 2 (2 minutos):</strong> Proyectar Diapositiva 10: "Explicación de los Challenges". El maestro explica cada nivel de manera sintetizada.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Atención, Genios! En Rescate de Ovejas, su misión es salvar tantas ovejas como puedan escribiendo las letras y números que aparezcan en ellas. Cada vez que escriban la letra o número correcto, ¡ganarán un punto! Pero cuidado: si escriben una letra que no está en ninguna oveja, perderán puntos. Y prepárense, porque hay alienígenas que secuestrarán ovejas si no son lo suficientemente rápidos. Si se llevan cinco ovejas, ¡la misión fallará! Pero hay esperanza: un pato enojado puede aparecer para detenerlos y destruir su nave. ¡Así que escriban rápido y manténganse atentos para rescatar a todas las ovejas!<br><br>Ahora, pueden elegir entre tres niveles de desafío: <strong>Rockie</strong>, <strong>Master</strong> y <strong>Hacker</strong>.<br><br>En el nivel <strong>Rockie</strong>, jugarán con dificultad normal en el nivel 6: es ideal para quienes se están familiarizando con el teclado. En el nivel <strong>Master</strong>, el desafío sube a dificultad difícil en el nivel 6, perfecto para quienes ya tienen experiencia y quieren un buen reto. Y si se atreven con el nivel <strong>Hacker</strong>, deberán jugar en dificultad difícil, superar el nivel 6 y ¡no perder ni una vida! Es un reto solo para los más rápidos y precisos. ¡Elijan su nivel y prepárense para el rescate!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 3 (25 minutos):</strong> Proyectar Diapositiva 11: "Temporizador de 25 minutos". Supervisar y asistir a los estudiantes mientras trabajan en su desafío.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Tienen 25 minutos para completar su reto. ¡Concéntrense y trabajen a su ritmo! Si terminan rápido, pueden intentar el siguiente nivel. ¡A salvar esas ovejas!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 4 (1 minuto):</strong> Proyectar la Diapositiva 12: "Revisión de Objetivos".</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Genios, hemos cumplido algunos de los objetivos de la misión: mejorar nuestra rapidez en el teclado y rescatar a muchas ovejas de esos alienígenas. ¡Fantástico trabajo!"</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Actividad 4 -->
+<div id="activity-4" class="activity">
+    <div class="banner" onclick="toggleContent('team_gnius')">
+        <div class="title">🤝 Actividad 4: Team Gnius ⏰ Tiempo: 13 minutos</div>
+        <div class="subtitle">Formación de equipos y colaboración en la misión.</div>
+    </div>
+    <div id="team_gnius" class="content">
+        <table id="actividad4-content">
+            <tr>
+                <td><strong>PASO 1 (1 minuto):</strong> Proyectar Diapositiva 13: "Formación de Equipos". El maestro explica que se formarán equipos de 2 estudiantes: uno será el Líder y el otro el Programador.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, ahora es momento de trabajar en equipo! En sus equipos, uno de ustedes será el Líder y el otro será el Programador. El Programador se encargará de jugar el reto, mientras el Líder le dicta las letras y números y lleva el conteo de puntos en su Magic Board. ¡Vamos a demostrar cómo se trabaja en equipo!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 2 (0.5 minutos):</strong> Proyectar Diapositiva 14: Temporizador de 30 segundos para que los estudiantes se organicen en equipos.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Tienen 30 segundos para formar sus equipos. ¡Busquen un compañero y prepárense para trabajar juntos! ¡El tiempo corre!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 3 (1 minuto):</strong> Proyectar Diapositiva 15: Instruir a los estudiantes para que un integrante de cada equipo recoja una Magic Board.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Antes de comenzar, un integrante de cada equipo debe ir a recoger una Magic Board para llevar el conteo de puntos y ayudar al Programador a concentrarse en las ovejas. ¡Solo uno por equipo! ¡Vamos, Genios!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 4 (0.5 minutos):</strong> Proyectar Diapositiva 16: Temporizador de 30 segundos para que los equipos recojan las Magic Boards.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Tienen 30 segundos para recoger las Magic Boards. ¡Solo un miembro del equipo puede ir a recogerla! ¡Rápido, que el tiempo corre!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 5 (4 minutos):</strong> Proyectar Diapositiva 17: Temporizador de 4 minutos. Supervisar mientras los equipos trabajan en conjunto.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Durante estos 4 minutos, el Programador se encargará del reto mientras el Líder le dicta las letras y números, y lleva el conteo en su Magic Board. ¡Trabajen juntos para salvar a las ovejas y ganar puntos!"</td>
+            </tr>
+            <tr id="actividad4-step-6">
+                <td><strong>PASO 6 (4 minutos):</strong> Proyectar Diapositiva 18: Temporizador de 4 minutos para el intercambio de roles.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora es momento de intercambiar roles. El Líder se convertirá en el Programador y el Programador en el Líder. ¡Vamos a seguir trabajando en equipo y salvar más ovejas!"</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 7 (2 minutos):</strong> Proyectar Diapositiva 19: Reflexión en equipo sobre el desempeño.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora que cada uno tuvo la oportunidad de ser Líder y Programador, tómense un momento para reflexionar. ¿Qué funcionó bien? ¿Cómo ayudaron las indicaciones del Líder al Programador para mejorar? ¿Cómo podrían mejorar juntos la próxima vez?"</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Actividad 5 -->
+<div id="activity-5" class="activity">
+    <div class="banner" onclick="toggleContent('honor_dojo')">
+        <div class="title">🏅 Actividad 5: Honor de Dojo ⏰ Tiempo: 2.5 minutos</div>
+        <div class="subtitle">Reconocimiento del esfuerzo y logros del grupo.</div>
+    </div>
+    <div id="honor_dojo" class="content">
+        <table>
+            <tr>
+                <td><strong>PASO 1 (0.5 minutos):</strong> Proyectar Diapositiva 20: "Revisión de Objetivos". El maestro reconoce el esfuerzo colectivo y destaca los logros del grupo en general.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Genios, han hecho un trabajo increíble hoy! Han mejorado su rapidez al teclear, trabajado en equipo y rescatado muchas ovejas de esos alienígenas. Estoy muy orgulloso de su esfuerzo y colaboración. Observen que hemos cumplido los objetivos de hoy y superado todos los desafíos juntos."</td>
+            </tr>
+            <tr>
+                <td><strong>PASO 2 (2 minutos):</strong> Proyectar Diapositiva 21: "Honor de Dojo". Guiar a los estudiantes en la recogida y organización de los materiales y el aula.</td>
+                <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora, Genios, es hora de honrar nuestro espacio de trabajo. Vamos a devolver todo el material que utilizamos hoy y asegurarnos de que el aula quede tan ordenada como la encontramos. ¡Vamos a dejar este espacio impecable!"</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+        }
+
+        function updateContent() {
+            var time = document.getElementById("class-time").value;
+            document.getElementById("selected-time").innerText = "Tiempo efectivo de clase: " + time + " minutos";
+
+            // Lógica para mostrar/ocultar actividades y pasos según el tiempo
+            document.getElementById("activity-2").style.display = (time === "50") ? "block" : "none";
+            document.getElementById("actividad4-step-6").style.display = (time === "40") ? "none" : "table-row";
+        }
+
+        // Inicializar el contenido según la selección por defecto
+        updateContent();
+    </script>
+</body>
+</html>
